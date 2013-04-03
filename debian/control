@@ -2,8 +2,8 @@ Source: debathena-syslog
 Section: debathena/admin
 Priority: extra
 Maintainer: Debathena Project <debathena@mit.edu>
-Build-Depends: @cdbs@, aptitude
-Standards-Version: 3.8.0
+Build-Depends: cdbs, debhelper, dh-buildinfo, aptitude
+Standards-Version: 3.9.3
 
 Package: debathena-syslog
 Architecture: all
